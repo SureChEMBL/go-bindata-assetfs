@@ -1,0 +1,24 @@
+Source: golang-github-elazarl-go-bindata-assetfs
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.6
+Homepage: https://github.com/elazarl/go-bindata-assetfs
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-elazarl-go-bindata-assetfs.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-elazarl-go-bindata-assetfs.git
+XS-Go-Import-Path: github.com/elazarl/go-bindata-assetfs
+
+Package: golang-github-elazarl-go-bindata-assetfs-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-go
+Description: Go library to serve embedded binary files with net/http
+ Serve embedded binary files that have been encoded using the
+ jteeuwen/go-bindata library with net/http. This allows data files
+ to be served using HTTP but those files are represented as
+ Go source code.

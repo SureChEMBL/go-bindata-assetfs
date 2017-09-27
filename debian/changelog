@@ -1,0 +1,19 @@
+golang-github-elazarl-go-bindata-assetfs (0.0~git20151224.0.57eb5e1-2) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+ -- Paul Tagliamonte <paultag@debian.org>  Wed, 29 Jun 2016 20:21:02 -0400
+
+golang-github-elazarl-go-bindata-assetfs (0.0~git20151224.0.57eb5e1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 06 Mar 2016 14:27:24 +1100
+
+golang-github-elazarl-go-bindata-assetfs (0.0~git20150813.0.d5cac42-1) unstable; urgency=medium
+
+  * Initial release (Closes: #803906)
+
+ -- Tim Potter <tpot@hpe.com>  Tue, 03 Nov 2015 14:47:12 +1100
